@@ -1,0 +1,13 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@parishak/shared": ["../../shared/src/index.ts"],
+      "@fire-module/*": ["../../ML Model/mobile_virtual_fire/src/*"]
+    }
+  }
+}

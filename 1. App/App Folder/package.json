@@ -1,0 +1,44 @@
+{
+  "name": "parishak-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PARISHAK - Industrial Safety Training & Certification Platform",
+  "workspaces": [
+    "shared",
+    "backend",
+    "apps/admin",
+    "apps/mobile"
+  ],
+  "scripts": {
+    "dev": "npm --workspace=apps/admin run dev",
+    "dev:frontend": "npm --workspace=apps/admin run dev",
+    "dev:admin": "npm --workspace=apps/admin run dev",
+    "dev:mobile": "npm --workspace=apps/mobile run start",
+    "dev:mobile:web": "npm --workspace=apps/mobile run web",
+    "dev:backend": "npm --workspace=backend run dev",
+    "dev:yolo": "python \"AR Model/mobile_virtual_fire/server/app.py\"",
+    "build:shared": "npm --workspace=shared run build",
+    "build:backend": "npm --workspace=backend run build",
+    "build:admin": "npm --workspace=apps/admin run build",
+    "test:backend": "npm --workspace=backend run test",
+    "seed:backend": "npm --workspace=backend run seed"
+  },
+  "keywords": [
+    "safety",
+    "industrial-training",
+    "expo",
+    "react-native",
+    "express",
+    "mongodb",
+    "certification"
+  ],
+  "overrides": {
+    "zod": "3.23.8",
+    "express": "4.19.2"
+  },
+  "author": "PARISHAK Engineering Team",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "call-bound": "^1.0.4"
+  }
+}

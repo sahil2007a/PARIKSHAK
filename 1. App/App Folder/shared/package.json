@@ -1,0 +1,19 @@
+{
+  "name": "@parishak/shared",
+  "version": "1.0.0",
+  "description": "Shared domain models, types, constants and validators for PARISHAK",
+  "main": "dist/index.js",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

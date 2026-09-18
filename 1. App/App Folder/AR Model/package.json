@@ -1,0 +1,12 @@
+{
+  "name": "ml-model-ar-virtual-fire",
+  "version": "1.0.0",
+  "description": "AR Virtual Fire Rendering System",
+  "scripts": {
+    "start": "cd mobile_virtual_fire && npx expo start -c",
+    "mobile": "cd mobile_virtual_fire && npx expo start -c",
+    "server": "python mobile_virtual_fire/server/app.py",
+    "webcam": "python main.py --source 0",
+    "demo": "python main.py --source demo"
+  }
+}

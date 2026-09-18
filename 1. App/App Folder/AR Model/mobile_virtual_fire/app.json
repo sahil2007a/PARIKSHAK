@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "AR Virtual Fire",
+    "slug": "mobile-virtual-fire-ar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/fire_sprites/frame_00.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0c0e14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses camera to detect real-world objects and render AR virtual fire effects over them.",
+        "NSPhotoLibraryUsageDescription": "This app needs photo library access to save AR fire screenshots.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs photo library access to save AR fire screenshots."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/fire_sprites/frame_00.png",
+        "backgroundColor": "#0c0e14"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow AR Virtual Fire to access your camera to detect target objects."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow AR Virtual Fire to save screenshots to your gallery.",
+          "savePhotosPermission": "Allow AR Virtual Fire to save screenshots to your gallery."
+        }
+      ]
+    ]
+  }
+}

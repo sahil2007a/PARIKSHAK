@@ -1,0 +1,7 @@
+names:
+  0: bench
+  1: lathe_machine
+  2: electric_pole
+path: C:\Users\Sahil Ramteke\Desktop\PARIKSHAK_Codebase\AR Model\dataset
+train: images/train
+val: images/val
