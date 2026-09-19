@@ -1,4 +1,4 @@
-# PARIKSHAK (परिक्षार्थी / परिशक)
+# PARIKSHAK 
 ### *"Practice. Prove. Protect."*
 **Enterprise Industrial Safety Training, AR Simulation Engine & Digital Certification Ecosystem**
 
@@ -21,7 +21,7 @@ The ecosystem combines physical workspace hazard recognition, real-time computer
 The repository is structured logically for clarity, while maintaining the entire working, interconnected application code intact inside `1. App/App Folder/`:
 
 ```text
-PARIKSHAK_0.1/
+PARIKSHAK/
 │
 ├── 1. App/
 │   ├── App Demo/                               # Application screenshots and demo recordings
@@ -37,39 +37,21 @@ PARIKSHAK_0.1/
 │       ├── package-lock.json                   # Monorepo dependency lockfile
 │       └── .env.example                        # Monorepo environment configuration template
 │
-├── 2. Web Dashboard/
-│   ├── Web Demo/                               # Web dashboard preview media & screenshots
-│   ├── Web Folder/                             # Web assets and dashboard reference materials
-│   └── README.md                               # Points to active implementation at 1. App/App Folder/apps/admin/
 │
-├── 3. Unity AR/
-│   ├── .gitkeep                                # Directory placeholder
-│   └── README.md                               # AR architecture documentation & Unity migration roadmap
+├── 2. Architecture/
 │
-├── 4. AI/
-│   └── README.md                               # AI architecture documentation pointing to active code in AR Model/
 │
-├── 5. Document/
-│   ├── Architecture/
-│   │   └── ARCHITECTURE.md                     # System architecture & cross-service communication
-│   ├── User Flow/
-│   │   └── AUTHENTICATION.md                   # 2-step OTP registration & token rotation lifecycle
-│   ├── System Design/
-│   │   ├── ADMIN.md                            # Admin portal specs & audit logging
-│   │   ├── DATABASE.md                         # MongoDB collection schemas & index definitions
-│   │   ├── SECURITY.md                         # Defense-in-depth, rate limiting, and RBAC
-│   │   └── IMPLEMENTATION_PLAN.md              # Technical roadmap & implementation milestones
-│   └── Research/
+├── 3. Document/
+│
+│── 4. Research/
 │       ├── Research Data/                      # Fire classes, explosive gas thresholds & DGMS safety limits
-│       │   └── README.md
 │       └── Research Sources - References/      # Regulatory standards: DGMS, BIS, OSHA, NFPA
-│           └── README.md
+│           
+├── 5. Unity AR/
+│   ├── .gitkeep                                # Directory placeholder
 │
-├── 6. Assessment/
-│   ├── TESTING.md                              # Vitest backend integration test suite execution
-│   └── README.md                               # Authoritative exam rubric & competency scoring specs
 │
-├── 7. API Details/
+├── 6. API Details/
 │   ├── API.md                                  # Complete REST API (v1) endpoint reference & request payloads
 │   └── README.md                               # API architecture, headers, and standard error envelopes
 │
